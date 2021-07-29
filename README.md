@@ -32,7 +32,7 @@ Breve descripción.
 
 **Fase 2 - Políticas IPsec**
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
-| ------------- | ------------- |
+| :---         |     :---:      |
 | Encryption Algorithm | Aes256  |
 | Authentication Algorithm | Sha512 |
 | Perfect Forward Secrecy | disable |
