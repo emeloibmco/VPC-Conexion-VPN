@@ -18,6 +18,10 @@ Breve descripción.
 <br />
 
 ## Datos de Configuración VPN :cloud:
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
 <br />
 
 ## Crear VPN :computer:
