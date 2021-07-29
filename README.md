@@ -13,6 +13,8 @@ Breve descripción.
 <br />
 
 ## Pre-Requisitos :pencil:
+* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
+* Contar con una VPC.
 <br />
 
 ## Datos de Configuración VPN :cloud:
