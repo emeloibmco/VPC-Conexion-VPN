@@ -8,13 +8,14 @@ Breve descripción.
 3. [Crear VPN](#Crear-VPN-computer)
 4. [Crear políticas IKE](#Crear-políticas-IKE-wrench)
 5. [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
+6. [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre-Requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
-* Contar con una VPC.
+* Contar con una VPC y una subred.
 <br />
 
 ## Datos de Configuración VPN :cloud:
@@ -39,6 +40,8 @@ Breve descripción.
 | Diffie-Hellman Group | 2 |
 | Lifetime (for renegotiation) | 3600 |
 
+Pendiente IP Cliente.
+
 <br />
 
 ## Crear VPN :computer:
@@ -48,6 +51,9 @@ Breve descripción.
 <br />
 
 ## Crear políticas IPsec :hammer_and_wrench:
+<br />
+
+## Configurar políticas creadas en VPN :gear:
 <br />
 
 ## Referencias :mag:
