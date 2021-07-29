@@ -22,7 +22,7 @@ Breve descripción.
 **Fase 1 - Políticas IKE**
 
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
-| ------------- | ------------- |
+| :---         |     :---:      |
 | Encryption Scheme  | IKE v2 |
 | Diffie-Hellman Group  | 19  |
 | Encryption Algorithm | Aes256 |
