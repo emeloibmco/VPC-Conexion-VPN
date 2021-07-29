@@ -28,7 +28,7 @@ Breve descripción.
 | Encryption Algorithm | Aes256 |
 | Hashing Algorithm | Sha256 |
 | Lifetime (for renegotiation) | 28800 |
-<br />
+
 
 **FASE 2 - Políticas IPsec**
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
