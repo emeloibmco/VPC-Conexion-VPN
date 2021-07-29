@@ -31,3 +31,4 @@ Breve descripción.
 <br />
 
 ## Autores :black_nib:
+Equipo IBM Cloud Tech Sales Colombia.
