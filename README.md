@@ -19,7 +19,7 @@ Breve descripción.
 
 ## Datos de Configuración VPN :cloud:
 
-**Fase 1 - Políticas IKE**
+**FASE 1 - Políticas IKE**
 
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | :---         |     :---:      |
@@ -30,7 +30,7 @@ Breve descripción.
 | Lifetime (for renegotiation) | 28800 |
 <br />
 
-**Fase 2 - Políticas IPsec**
+**FASE 2 - Políticas IPsec**
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | :---         |     :---:      |
 | Encryption Algorithm | Aes256  |
