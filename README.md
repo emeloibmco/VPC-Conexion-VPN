@@ -18,10 +18,10 @@ Breve descripción.
 <br />
 
 ## Datos de Configuración VPN :cloud:
-| Primer encabezado | Segundo encabezado |
+| Propiedades del Túnel| Remoto (proveedor) |
 | ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+| Encryption Scheme  | IKE v2 |
+| Diffie-Hellman Group  | 19  |
 <br />
 
 ## Crear VPN :computer:
