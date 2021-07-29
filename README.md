@@ -4,7 +4,7 @@
 2. [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud)
 3. [Crear VPN](#Crear-VPN-computer)
 4. [Crear políticas IKE](#Crear-políticas-IKE-wrench)
-5. [Crear políticas IPSec](#Crear-políticas-IPSecC-hammer_and_wrench)
+5. [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
@@ -21,7 +21,7 @@
 ## Crear políticas IKE :wrench:
 <br />
 
-## Crear políticas IPSec :hammer_and_wrench:
+## Crear políticas IPsec :hammer_and_wrench:
 <br />
 
 ## Referencias :mag:
