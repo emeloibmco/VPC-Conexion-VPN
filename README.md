@@ -21,7 +21,7 @@ Breve descripción.
 
 **Fase 1 - Políticas IKE**
 
-| `Propiedades del Túnel`| `Remoto (proveedor)` |
+| `PROPIEDADES DEL TÚNEL`| `REMOTO (PROVEEDOR)` |
 | ------------- | ------------- |
 | Encryption Scheme  | IKE v2 |
 | Diffie-Hellman Group  | 19  |
@@ -32,7 +32,7 @@ Breve descripción.
 <br />
 
 **Fase 2 - Políticas IPsec**
-| `Propiedades del Túnel`| `Remoto (proveedor)` |
+| `PROPIEDADES DEL TÚNEL`| `REMOTO (PROVEEDOR)` |
 | ------------- | ------------- |
 | Encapsulation (ESP or AH)  | ESP |
 | Encryption Algorithm | Aes256  |
