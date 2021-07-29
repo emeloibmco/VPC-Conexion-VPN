@@ -27,14 +27,12 @@ Breve descripción.
 | Diffie-Hellman Group  | 19  |
 | Encryption Algorithm | Aes256 |
 | Hashing Algorithm | Sha256 |
-| Main or Aggressive Mode | disable |
 | Lifetime (for renegotiation) | 28800 |
 <br />
 
 **Fase 2 - Políticas IPsec**
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | ------------- | ------------- |
-| Encapsulation (ESP or AH)  | ESP |
 | Encryption Algorithm | Aes256  |
 | Authentication Algorithm | Sha512 |
 | Perfect Forward Secrecy | disable |
