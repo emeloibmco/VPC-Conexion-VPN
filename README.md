@@ -3,8 +3,8 @@
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud)
 3. [Crear VPN](#Crear-VPN-computer)
-4. [Crear políticas IKE](#Configurar-políticas-IKE-wrench)
-5. [Crear políticas IPSec](#Configurar-políticas-IPSecC-hammer_and_wrench)
+4. [Crear políticas IKE](#Crear-políticas-IKE-wrench)
+5. [Crear políticas IPSec](#Crear-políticas-IPSecC-hammer_and_wrench)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
