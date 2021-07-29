@@ -19,7 +19,7 @@ Breve descripción.
 
 ## Datos de Configuración VPN :cloud:
 
-1. Fase 1. Políticas IKE.
+**Fase 1 - Políticas IKE**
 
 | `Propiedades del Túnel`| `Remoto (proveedor)` |
 | ------------- | ------------- |
