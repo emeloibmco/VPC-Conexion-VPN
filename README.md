@@ -31,6 +31,18 @@ Breve descripción.
 | Lifetime (for renegotiation) | 28800 |
 <br />
 
+**Fase 2 - Políticas IPsec**
+| `Propiedades del Túnel`| `Remoto (proveedor)` |
+| ------------- | ------------- |
+| Encapsulation (ESP or AH)  | ESP |
+| Encryption Algorithm | Aes256  |
+| Authentication Algorithm | Sha512 |
+| Perfect Forward Secrecy | disable |
+| Diffie-Hellman Group | 2 |
+| Lifetime (for renegotiation) | 3600 |
+
+<br />
+
 ## Crear VPN :computer:
 <br />
 
