@@ -18,10 +18,17 @@ Breve descripción.
 <br />
 
 ## Datos de Configuración VPN :cloud:
-| Propiedades del Túnel| Remoto (proveedor) |
+
+1. Fase 1. Políticas IKE.
+
+| `Propiedades del Túnel`| `Remoto (proveedor)` |
 | ------------- | ------------- |
 | Encryption Scheme  | IKE v2 |
 | Diffie-Hellman Group  | 19  |
+| Encryption Algorithm | Aes256 |
+| Hashing Algorithm | Sha256 |
+| Main or Aggressive Mode | disable |
+| Lifetime (for renegotiation) | 28800 |
 <br />
 
 ## Crear VPN :computer:
