@@ -64,7 +64,7 @@ A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complet
 
 **Detalles de conexión**.
 * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
-* ```Dirección de pasarela de igual```: Complete el campos con la dirección IP porporcionada en los [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud). 
+* ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en los [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud). 
 * ```Clave precompartida```: asigne una clave.
 <br />
 
