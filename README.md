@@ -108,9 +108,11 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 <br />
 
 ## Crear políticas IPsec :hammer_and_wrench:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ipsec.gif"></p>
 <br />
 
 ## Configurar políticas creadas en VPN :gear:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/a%C3%B1adirpoliticas.gif"></p>
 <br />
 
 ## Referencias :mag:
