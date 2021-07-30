@@ -23,6 +23,12 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 
 ## Datos de Configuración VPN :cloud:
 
+### IP Peer
+| ***INFORMACIÓN DEL DISPOSITIVO GATEWAY DE VPN*** | ***REMOTO (PROVEEDOR)*** |
+| :---         |     :---:      |
+| IP Peer  | 169.47.83.154 |
+
+
 ### FASE 1 - Políticas IKE
 
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
@@ -64,7 +70,7 @@ A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complet
 
 **Detalles de conexión**.
 * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
-* ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en los [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud). 
+* ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
 * ```Clave precompartida```: asigne una clave.
 <br />
 
