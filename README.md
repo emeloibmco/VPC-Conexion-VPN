@@ -17,7 +17,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 
 ## Pre-Requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
-* Contar con una VPC y una subred.
+* Contar con una *VPC* y una subred.
 <br />
 
 ## Datos de Configuración VPN :cloud:
