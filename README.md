@@ -88,7 +88,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pas
 <br />
 
 ## Crear políticas IKE :wrench:
-Una vez ha configurado la *VPN*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la Tabla de Fase 1, para esto complete los siguientes pasos:
+Una vez ha configurado la *VPN*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la tabla [FASE 1 - Políticas IKE](#FASE-1---Políticas-IKE), para esto complete los siguientes pasos:
 1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IKE``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IKE*, complete lo siguiente:  
 * ```Nombre```: asigne un nombre exclusivo para la *Política IKE*.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
