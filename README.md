@@ -22,7 +22,7 @@ En la presente guía, se
 
 ## Datos de Configuración VPN :cloud:
 
-**FASE 1 - Políticas IKE**
+**FASE 1. Políticas IKE**
 
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | :---         |     :---:      |
