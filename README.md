@@ -108,11 +108,29 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 <br />
 
 ## Crear políticas IPsec :hammer_and_wrench:
+El siguiente paso es crear las politicas IPsec, de acuerdo a los datos de configuración especificados en la Tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec), para esto complete los siguientes pasos:
+1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IPsec``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IPsec*, complete lo siguiente:  
+* ```Nombre```: asigne un nombre exclusivo para la *Política IPsec*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
+
+Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec):
+* ```Autenticación```: Sha512
+* ```Cifrado```: Aes256
+* ```Secreto de reenvio perfecto```: Inhabilitado
+* ```Tiempo de vida de la clave```: 3600
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear política IPsec```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ipsec.gif"></p>
+
+2. Espere unos minutos mientras la *Política IPsec* es desplegada y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
 ## Configurar políticas creadas en VPN :gear:
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/a%C3%B1adirpoliticas.gif"></p>
+1. Por último dirijase a ```Pasarelas VPN``` e ingrese a la *VPN* que se creo anteriormente, al final de la pantalla encontrará  ```Conexiones VPN```, ingrese a la conexión que tuvo que crear cuando aprovisionó la *VPN*.
+2. En ```Visión general``` > ```Detalles de conexión VPN``` edite las políticas *IKE* e *IPsec* y seleccione las que creó anteriormente, recuerde guadar los cambios.
+> NOTA: La conexión aparece como inctiva, debido a que se debe gestionar la conexión del lado del cliente. 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/añadirpoliticas.gif"></p>
 <br />
 
 ## Referencias :mag:
