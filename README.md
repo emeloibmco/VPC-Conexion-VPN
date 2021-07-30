@@ -56,7 +56,11 @@ El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se m
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
 * ```Nuve privada virtual```: seleccione la *VPC* en la cual está trabajando.
 * ```Subred```: seleccione la subred en la cual está trabajando.
-* ```Modalidad```: seleccione la subred en la cual está trabajando.
+* ```Modalidad```: deje la opción indicada por defecto (Basada en rutas).
+
+A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complete los campos que salen a continuación:
+* ```Detalles de conexión```: habilite esta opció.
+  * ```Nombre de conexión VPN```:
 * 
 * 
 
