@@ -80,6 +80,11 @@ A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complet
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear pasarela VPN```.
+<br />
+
+2. Espere unos minutos mientras la *VPN* es desplegada y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
 ## Crear políticas IKE :wrench:
