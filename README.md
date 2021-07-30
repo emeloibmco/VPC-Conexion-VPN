@@ -48,9 +48,6 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 | Perfect Forward Secrecy | disable |
 | Diffie-Hellman Group | 2 |
 | Lifetime (for renegotiation) | 3600 |
-
-Pendiente IP Cliente.
-
 <br />
 
 ## Crear VPN :computer:
