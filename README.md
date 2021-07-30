@@ -22,7 +22,7 @@ En la presente guía, se
 
 ## Datos de Configuración VPN :cloud:
 
-**FASE 1. Políticas IKE**
+**FASE 1 Políticas IKE**
 
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | :---         |     :---:      |
@@ -56,7 +56,7 @@ Una vez a configurada la *VPN*, se deben crear las politicas IKE, de acuerdo a l
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
 
-Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 1. Políticas IKE](#FASE-1.-Políticas-IKE):
+Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 1 Políticas IKE](#FASE-1-Políticas-IKE):
 * ```Versión de IKE```:2
 * ```Autenticación```: Sha512
 * ```Cifrado```: Aes256
