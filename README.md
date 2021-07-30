@@ -25,7 +25,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 
 ### IP Peer
 | ***INFORMACIÓN DEL DISPOSITIVO GATEWAY DE VPN*** | ***REMOTO (PROVEEDOR)*** |
-| :---         |     :---:      |
+|     :---:      |     :---:      |
 | IP Peer  | 169.47.83.154 |
 <br />
 
