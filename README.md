@@ -1,5 +1,7 @@
 # VPC Conexión VPN ☁🖥
-Breve descripción.
+*VPN for VPC* proporciona una solución sencilla pero potente para redes VPN altamente escalables y robustas de sitio a sitio. Este servicio VPN ofrece una combinación de seguridad estándar del sector y opciones de cifrado así como soporte para autenticación de clave precompartida. El servicio también proporciona la posibilidad de añadir y eliminar con rapidez las conexiones VPN con la opción de uso de configuraciones predefinidas.
+
+En la presente guía, se 
 <br />
 
 ## Índice  📰
@@ -48,7 +50,7 @@ Pendiente IP Cliente.
 <br />
 
 ## Crear políticas IKE :wrench:
-Una vez a configurado la *VPC*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la Tabla de Fase 1, para esto complete los siguientes pasos:
+Una vez a configurada la *VPN*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la Tabla de Fase 1, para esto complete los siguientes pasos:
 1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IKE``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IKE*, complete lo siguiente:  
 * ```Nombre```: asigne un nombre exclusivo para la *Política IKE*.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
