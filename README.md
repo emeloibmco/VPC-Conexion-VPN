@@ -60,8 +60,10 @@ Los siguientes parámetros se escogen de acuerdo a lo especificado en la Tabla d
 * ```Cifrado```: Aes256
 * ```Grupo Diffie-Hellman ```: 19
 * ```Tiempo de vida de la clave```: 28800
+
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear política IKE```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ike.gif"></p>
+
 2. Espere unos minutos mientras la *Política IKE* es desplegada y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
