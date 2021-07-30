@@ -53,7 +53,9 @@ El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se m
 * ```Nombre```: asigne un nombre exclusivo para la *VPN*.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
-* 
+
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
 <br />
 
 ## Crear políticas IKE :wrench:
