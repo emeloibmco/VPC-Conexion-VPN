@@ -128,7 +128,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 ## Configurar políticas creadas en VPN :gear:
 1. Por último dirijase a ```Pasarelas VPN``` e ingrese a la *VPN* que se creo anteriormente, al final de la pantalla encontrará  ```Conexiones VPN```, ingrese a la conexión que tuvo que crear cuando aprovisionó la *VPN*.
 2. En ```Visión general``` > ```Detalles de conexión VPN``` edite las políticas *IKE* e *IPsec* y seleccione las que creó anteriormente, recuerde guadar los cambios.
-> NOTA: La conexión aparece como inctiva, debido a que se debe gestionar la conexión del lado del cliente. 
+> NOTA: La conexión aparece como inactiva, debido a que se debe gestionar la conexión del lado del cliente. 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/añadirpoliticas.gif"></p>
 <br />
 
