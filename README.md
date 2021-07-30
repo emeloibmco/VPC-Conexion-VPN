@@ -60,7 +60,7 @@ El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se m
 
 A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complete los campos que salen a continuación:
 * ```Detalles de conexión```: habilite esta opció.
-  * ```Nombre de conexión VPN```:
+  _ ```Nombre de conexión VPN```:
 * 
 * 
 
