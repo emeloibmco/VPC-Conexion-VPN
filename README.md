@@ -47,7 +47,13 @@ Pendiente IP Cliente.
 <br />
 
 ## Crear VPN :computer:
-El primer paso consiste en crear la *VPN*. 
+El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se muestran a continuación:
+
+1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
+* ```Nombre```: asigne un nombre exclusivo para la *VPN*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
+* 
 <br />
 
 ## Crear políticas IKE :wrench:
