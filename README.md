@@ -33,7 +33,7 @@ En la presente guía, se
 | Lifetime (for renegotiation) | 28800 |
 <br />
 
-**FASE 2 - Políticas IPsec**
+### FASE 2 - Políticas IPsec
 | ***PROPIEDADES DEL TÚNEL*** | ***REMOTO (PROVEEDOR)*** |
 | :---         |     :---:      |
 | Encryption Algorithm | Aes256  |
