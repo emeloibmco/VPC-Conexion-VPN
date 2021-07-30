@@ -47,6 +47,7 @@ Pendiente IP Cliente.
 <br />
 
 ## Crear VPN :computer:
+El primer paso consiste en crear la *VPN*. 
 <br />
 
 ## Crear políticas IKE :wrench:
