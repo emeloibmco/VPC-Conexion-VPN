@@ -53,6 +53,7 @@ Una vez a configurado la *VPC*, se deben crear las politicas IKE, de acuerdo a l
 * ```Nombre```: asigne un nombre exclusivo para la *Política IKE*.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
+
 Los siguientes parámetros se escogen de acuerdo a lo especificado en la Tabla de Fase 1:
 * ```Versión de IKE```:2
 * ```Autenticación```: Sha512
@@ -60,7 +61,7 @@ Los siguientes parámetros se escogen de acuerdo a lo especificado en la Tabla d
 * ```Grupo Diffie-Hellman ```: 19
 * ```Tiempo de vida de la clave```: 28800
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear política IKE```.
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpc.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ike.gif"></p>
 2. Espere unos minutos mientras la *Política IKE* es desplegada y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
