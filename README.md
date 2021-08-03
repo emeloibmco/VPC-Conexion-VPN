@@ -12,7 +12,8 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 4. [Crear políticas IKE](#Crear-políticas-IKE-wrench)
 5. [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
 6. [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
-7. [Autores](#Autores-black_nib)
+7. [Referencias](#Referencias-mag)
+8. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre-Requisitos :pencil:
@@ -130,6 +131,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 2. En ```Visión general``` > ```Detalles de conexión VPN``` edite las políticas *IKE* e *IPsec* y seleccione las que creó anteriormente, recuerde guadar los cambios.
 > NOTA: La conexión aparece como inactiva, debido a que se debe gestionar la conexión del lado del cliente. 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/añadirpoliticas.gif"></p>
+<br />
+
+## Referencias :mag:
 <br />
 
 ## Autores :black_nib:
