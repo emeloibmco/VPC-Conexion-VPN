@@ -67,7 +67,7 @@ A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complet
 **Detalles de conexión**.
 * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
 * ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
-* ```Pre-shared Key (Clave precompartida)```: asigne una clave que establezca junto con el cliente.
+* ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
 <br />
 
 **Detección de igual caído**.
