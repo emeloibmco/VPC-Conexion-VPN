@@ -1,5 +1,5 @@
 # VPC Conexión VPN ☁🖥
-***VPN for VPC*** proporciona una solución sencilla pero potente para redes *VPN* altamente escalables y robustas de sitio a sitio. Este servicio *VPN* ofrece una combinación de seguridad estándar del sector y opciones de cifrado así como soporte para autenticación de clave precompartida. El servicio también proporciona la posibilidad de añadir y eliminar con rapidez las conexiones *VPN* con la opción de uso de configuraciones predefinidas.
+***IBM Cloud® VPN for VPC*** proporciona una solución sencilla pero potente para redes *VPN* altamente escalables y robustas de sitio a sitio. Este servicio *VPN* ofrece una combinación de seguridad estándar del sector y opciones de cifrado así como soporte para autenticación de clave precompartida. El servicio también proporciona la posibilidad de añadir y eliminar con rapidez las conexiones *VPN* con la opción de uso de configuraciones predefinidas.
 
 La presente guía está enfocada en la creación de una *VPN* para *VPC* junto con la respectiva configuración de las políticas de Fase 1 (IKE) y de Fase 2 (IPsec). 
 
@@ -134,6 +134,8 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 <br />
 
 ## Referencias :mag:
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-using-vpn"> VPC using VPN </a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-adding-connections&interface=ui"> Adding connections to a VPN gateway </a>.
 <br />
 
 ## Autores :black_nib:
