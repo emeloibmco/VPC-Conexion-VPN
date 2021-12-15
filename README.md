@@ -152,6 +152,7 @@ Para crear una *VPN* basada en políticas complete los pasos que se muestran a c
 * ```Modalidad```: seleccione la opción ```Basada en políticas```.
 
 <br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpnp.gif"></p>
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-using-vpn"> VPC using VPN </a>.
