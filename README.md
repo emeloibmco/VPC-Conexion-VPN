@@ -8,10 +8,11 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Datos de Configuración VPN](#Datos-de-Configuración-VPN-cloud)
-3. [Crear VPN](#Crear-VPN-computer)
-4. [Crear políticas IKE](#Crear-políticas-IKE-wrench)
-5. [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
-6. [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
+3. [Crear VPN basada en rutas](#Crear-VPN-basada-en-rutas-computer)
+   * [Crear políticas IKE](#Crear-políticas-IKE-wrench)
+   * [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
+   * [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
+4. [Crear VPN basada en políticas](#Crear-VPN-basada-en-políticas-computer)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
@@ -50,7 +51,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 | Lifetime (for renegotiation) | 3600 |
 <br />
 
-## Crear VPN :computer:
+## Crear VPN basada en rutas :computer:
 El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se muestran a continuación:
 
 1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
@@ -131,6 +132,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 2. En ```Visión general``` > ```Detalles de conexión VPN``` edite las políticas *IKE* e *IPsec* y seleccione las que creó anteriormente, recuerde guadar los cambios.
 > NOTA: La conexión aparece como inactiva, debido a que se debe gestionar la conexión del lado del cliente. 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/añadirpoliticas.gif"></p>
+<br />
+
+## Crear VPN basada en políticas :computer:
 <br />
 
 ## Referencias :mag:
