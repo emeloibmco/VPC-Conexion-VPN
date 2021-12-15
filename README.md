@@ -52,7 +52,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 <br />
 
 ## Crear VPN basada en rutas :computer:
-El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se muestran a continuación:
+El primer paso consiste en crear la *VPN* basada en rutas. Para ello, realice los pasos que se muestran a continuación:
 
 1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
 * ```Nombre```: asigne un nombre exclusivo para la *VPN*.
@@ -60,7 +60,7 @@ El primer paso consiste en crear la *VPN*. Para ello, realice los pasos que se m
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
 * ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
 * ```Subred```: seleccione la subred con la cual está trabajando.
-* ```Modalidad```: deje la opción indicada por defecto (Basada en rutas).
+* ```Modalidad```: seleccione la opción ```Basada en rutas```.
 <br />
 
 A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complete los campos que salen a continuación:
@@ -141,6 +141,16 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 <br />
 
 ## Crear VPN basada en políticas :computer:
+Para crear una *VPN* basada en políticas complete los pasos que se muestran a continuación:
+
+1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
+* ```Nombre```: asigne un nombre exclusivo para la *VPN*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
+* ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
+* ```Subred```: seleccione la subred con la cual está trabajando.
+* ```Modalidad```: seleccione la opción ```Basada en políticas```.
+
 <br />
 
 ## Referencias :mag:
