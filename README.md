@@ -88,6 +88,12 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pas
 2. Espere unos minutos mientras la *VPN* es desplegada y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
+>NOTA: Luego de crear la *VPN* basada en rutas debe completar los siguientes procedimientos
+   * [Crear políticas IKE](#Crear-políticas-IKE-wrench)
+   * [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
+   * [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
+<br />
+
 ## Crear políticas IKE :wrench:
 Una vez ha configurado la *VPN*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la tabla [FASE 1 - Políticas IKE](#FASE-1---Políticas-IKE), para esto complete los siguientes pasos:
 1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IKE``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IKE*, complete lo siguiente:  
