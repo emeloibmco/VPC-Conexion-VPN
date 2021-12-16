@@ -151,9 +151,36 @@ Para crear una *VPN* basada en políticas complete los pasos que se muestran a c
 * ```Subred```: seleccione la subred con la cual está trabajando.
 * ```Modalidad```: seleccione la opción ```Basada en políticas```.
 
+A continuación habilite la opción ```Nueva conexión VPN para VPC/Create VPN Connection for VPC``` y complete los campos que salen a continuación:
+<br />
+
+**Detalles de conexión/Connection details**.
+* ```Nombre de conexión VPN/VPN connection name```: asigne un nombre exclusivo para la conexión de la *VPN*.
+* ```Dirección de pasarela de igual/Peer gateway address```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
+* ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
+* ```Local IBM CIDRs```: enumere los CIDR de esta VPC de IBM, que desea conectar a través del túnel VPN.
+* ```Peer CIDRs```: enumere los CIDR detrás del peer gateway a la que desea conectarse a través del túnel VPN.
+<br />
+
+**Detección de igual caído/Dear peer detection**.
+* No modifique los parámetros. Deje los valores establecidos por defecto.
+<br />
+
+**Políticas/Policies**.
+* ```IKE Policy```:
+  * De click en la opción ```Create IKE Policy```.
+  * 
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear pasarela VPN```.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpnp.gif"></p>
 
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpnp.gif"></p>
+
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-using-vpn"> VPC using VPN </a>.
