@@ -55,29 +55,29 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
 El primer paso consiste en crear la *VPN* basada en rutas. Para ello, realice los pasos que se muestran a continuación:
 
 1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
-    * ```Nombre```: asigne un nombre exclusivo para la *VPN*.
-    * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
-    * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
-    * ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
-    * ```Subred```: seleccione la subred con la cual está trabajando.
-    * ```Modalidad```: seleccione la opción ```Basada en rutas```.
+* ```Nombre```: asigne un nombre exclusivo para la *VPN*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
+* ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
+* ```Subred```: seleccione la subred con la cual está trabajando.
+* ```Modalidad```: seleccione la opción ```Basada en rutas```.
 <br />
 
 A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complete los campos que salen a continuación:
 <br />
 
-   **Detalles de conexión**.
-   * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
-   * ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
-   * ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
-   <br />
+**Detalles de conexión**.
+* ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
+* ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
+* ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
+<br />
 
-   **Detección de igual caído**.
-   * No modifique los parámetros. Deje los valores establecidos por defecto.
-   <br />
+**Detección de igual caído**.
+* No modifique los parámetros. Deje los valores establecidos por defecto.
+<br />
 
-   **Políticas**.
-   * No modifique los parámetros. Deje los valores establecidos por defecto.
+**Políticas**.
+* No modifique los parámetros. Deje los valores establecidos por defecto.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
@@ -97,16 +97,16 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pas
 ## Crear políticas IKE :wrench:
 Una vez ha configurado la *VPN*, se deben crear las politicas IKE, de acuerdo a los datos de configuración especificados en la tabla [FASE 1 - Políticas IKE](#FASE-1---Políticas-IKE), para esto complete los siguientes pasos:
 1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IKE``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IKE*, complete lo siguiente:  
-    * ```Nombre```: asigne un nombre exclusivo para la *Política IKE*.
-    * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
-    * ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
+* ```Nombre```: asigne un nombre exclusivo para la *Política IKE*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
 
 Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 1 - Políticas IKE](#FASE-1---Políticas-IKE):
-    * ```Versión de IKE```:2
-    * ```Autenticación```: Sha512
-    * ```Cifrado```: Aes256
-    * ```Grupo Diffie-Hellman ```: 19
-    * ```Tiempo de vida de la clave```: 28800
+* ```Versión de IKE```:2
+* ```Autenticación```: Sha512
+* ```Cifrado```: Aes256
+* ```Grupo Diffie-Hellman ```: 19
+* ```Tiempo de vida de la clave```: 28800
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear política IKE```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ike.gif"></p>
@@ -117,15 +117,15 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 ## Crear políticas IPsec :hammer_and_wrench:
 El siguiente paso es crear las politicas IPsec, de acuerdo a los datos de configuración especificados en la Tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec), para esto complete los siguientes pasos:
 1. En la sección de ```Infraestructura de VPC``` seleccione la opción ```Pasarelas VPN```>```Políticas IPsec``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *Política IPsec*, complete lo siguiente:  
-    * ```Nombre```: asigne un nombre exclusivo para la *Política IPsec*.
-    * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
-    * ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
+* ```Nombre```: asigne un nombre exclusivo para la *Política IPsec*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
 
-  Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec):
-    * ```Autenticación```: Sha512
-    * ```Cifrado```: Aes256
-    * ```Secreto de reenvio perfecto```: Inhabilitado
-    * ```Tiempo de vida de la clave```: 3600
+Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec):
+* ```Autenticación```: Sha512
+* ```Cifrado```: Aes256
+* ```Secreto de reenvio perfecto```: Inhabilitado
+* ```Tiempo de vida de la clave```: 3600
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear política IPsec```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/ipsec.gif"></p>
@@ -144,12 +144,12 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pol
 Para crear una *VPN* basada en políticas complete los pasos que se muestran a continuación:
 
 1. En la sección de ```Red``` seleccione la opción ```Pasarelas VPN``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPN*, complete lo siguiente:
-    * ```Nombre```: asigne un nombre exclusivo para la *VPN*.
-    * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
-    * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
-    * ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
-    * ```Subred```: seleccione la subred con la cual está trabajando.
-    * ```Modalidad```: seleccione la opción ```Basada en políticas```.
+* ```Nombre```: asigne un nombre exclusivo para la *VPN*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo correspondiente a la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPN* (la misma correspondiente a la *VPC*).
+* ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
+* ```Subred```: seleccione la subred con la cual está trabajando.
+* ```Modalidad```: seleccione la opción ```Basada en políticas```.
 
 
 <br />
