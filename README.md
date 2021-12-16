@@ -66,18 +66,18 @@ El primer paso consiste en crear la *VPN* basada en rutas. Para ello, realice lo
 A continuación habilite la opción ```Nueva conexión VPN para VPC``` y complete los campos que salen a continuación:
 <br />
 
-    **Detalles de conexión**.
-    * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
-    * ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
-    * ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
-    <br />
+   **Detalles de conexión**.
+   * ```Nombre de conexión VPN```: asigne un nombre exclusivo para la conexión de la *VPN*.
+   * ```Dirección de pasarela de igual```: complete el campo con la dirección IP porporcionada en [IP Peer](#IP-Peer). 
+   * ```Pre-shared Key (clave precompartida)```: asigne una clave que establezca junto con el cliente.
+   <br />
 
-    **Detección de igual caído**.
-    * No modifique los parámetros. Deje los valores establecidos por defecto.
-    <br />
+   **Detección de igual caído**.
+   * No modifique los parámetros. Deje los valores establecidos por defecto.
+   <br />
 
-    **Políticas**.
-    * No modifique los parámetros. Deje los valores establecidos por defecto.
+   **Políticas**.
+   * No modifique los parámetros. Deje los valores establecidos por defecto.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
@@ -121,7 +121,7 @@ El siguiente paso es crear las politicas IPsec, de acuerdo a los datos de config
     * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPN*).
     * ```Ubicación```: seleccione la ubicación en la cual desea implementar la Política (la misma seleccionada en la creación de la *VPN*).
 
-Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec):
+  Los siguientes parámetros se escogen de acuerdo a lo especificado en la tabla [FASE 2 - Políticas IPsec](#FASE-2---Políticas-IPsec):
     * ```Autenticación```: Sha512
     * ```Cifrado```: Aes256
     * ```Secreto de reenvio perfecto```: Inhabilitado
@@ -150,6 +150,7 @@ Para crear una *VPN* basada en políticas complete los pasos que se muestran a c
     * ```Nube privada virtual```: seleccione la *VPC* con la cual está trabajando.
     * ```Subred```: seleccione la subred con la cual está trabajando.
     * ```Modalidad```: seleccione la opción ```Basada en políticas```.
+
 
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpnp.gif"></p>
