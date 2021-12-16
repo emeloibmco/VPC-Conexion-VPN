@@ -169,12 +169,31 @@ A continuación habilite la opción ```Nueva conexión VPN para VPC/Create VPN C
 **Políticas/Policies**.
 * ```IKE Policy```:
   * De click en la opción ```Create IKE Policy```.
-  * 
+  * ```Name```: asigne un nombre exclusivo.
+  * ```Resource group```: seleccione el grupo de recursos.
+  * ```Región```: seleccione la región.
+  * ```IKE version```: indique la versión, en este caso 1.
+  * ```Authentication```: seleccione el valor de autenticación, en este caso ```sha256```.
+  * ```Encryption```: seleccione el tipo de cifrado, en esta caso ```aes256```.
+  * ```Diffie-Hellman Group```: indique el valor correspondiente, en este caso 5.
+  * ```Key lifetime```: indique el valor correspondiente, en este caso ```36000```.
+  * Presione el botón ```Create IKE policy```.
+
+* ```IPsec Policy```:
+  * De click en la opción ```Create IPsec Policy```.
+  * ```Name```: asigne un nombre exclusivo.
+  * ```Resource group```: seleccione el grupo de recursos.
+  * ```Región```: seleccione la región.
+  * ```Authentication```: seleccione el valor de autenticación, en este caso ```sha256```.
+  * ```Encryption```: seleccione el tipo de cifrado, en esta caso ```aes256```.
+  * Habilite la opción ```Perfect Forward Secrecy```.
+  * ```Diffie-Hellman Group```: indique el valor correspondiente, en este caso 2.
+  * ```Key lifetime```: indique el valor correspondiente, en este caso ```10800```.
+  * Presione el botón ```Create IPsec policy```.
+
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
-
-Cuando ya tenga todos los campos configurados de click en el botón ```Crear pasarela VPN```.
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear pasarela VPN/Create VPN gateway```.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpnp.gif"></p>
