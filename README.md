@@ -13,6 +13,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
    * [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
    * [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
 4. [Crear VPN basada en políticas](#Crear-VPN-basada-en-políticas-computer)
+5. [Ejercicio]
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
