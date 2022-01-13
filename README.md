@@ -200,7 +200,14 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear pas
 
 <br />
 
+## Ejercicio
+para el ejercicio presentado en el <a href="https://github.com/emeloibmco/Gateway-Appliance-Juniper-vSRX-version-20.4"> repositorio </a> en donde se presentan los pasos a seguir para establecer una conexión entre una VPN en VPC y un servicio de Juniper en una cuenta de IBM Cloud distinta. Se debe tener en cuenta la siguiente configuración para las políticas```IKE Policy```
+<br />
 
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/Ejercicio.png"></p>
+
+<br />
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-using-vpn"> VPC using VPN </a>.
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-adding-connections&interface=ui"> Adding connections to a VPN gateway </a>.
