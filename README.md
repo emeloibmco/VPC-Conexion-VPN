@@ -13,7 +13,7 @@ La presente guía está enfocada en la creación de una *VPN* para *VPC* junto c
    * [Crear políticas IPsec](#Crear-políticas-IPsec-hammer_and_wrench)
    * [Configurar políticas creadas en VPN](#Configurar-políticas-creadas-en-VPN-gear)
 4. [Crear VPN basada en políticas](#Crear-VPN-basada-en-políticas-computer)
-5. [Ejercicio]
+5. [Ejercicio](#ejercicio)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
@@ -209,6 +209,8 @@ para el ejercicio presentado en el <a href="https://github.com/emeloibmco/Gatewa
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/Ejercicio.png"></p>
 
 <br />
+
+
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-using-vpn"> VPC using VPN </a>.
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-adding-connections&interface=ui"> Adding connections to a VPN gateway </a>.
